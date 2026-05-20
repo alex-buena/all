@@ -1,0 +1,13 @@
+{
+	"name": "@klink/functions",
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@aws-sdk/client-sqs": "^3.883.0"
+	},
+	"dependencies": {
+		"@clerk/backend": "^2.12.1",
+		"@hono/clerk-auth": "^3.0.3",
+		"@klink/db": "workspace:*",
+		"hono": "^4.9.6"
+	}
+}

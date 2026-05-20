@@ -1,0 +1,8 @@
+# Simple PostgreSQL Dockerfile
+FROM postgres:16-alpine
+
+# Environment variables will be provided by docker-compose.yml
+# which reads them from the .env file
+
+# Expose PostgreSQL port
+EXPOSE 5432
